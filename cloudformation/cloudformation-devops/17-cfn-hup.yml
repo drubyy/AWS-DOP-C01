@@ -44,7 +44,7 @@ Resources:
           users:
             "apache":
               groups:
-                - "apache"
+                - "apache" #This mean create user name "apache" belongs to group "apache"
           sources:
             "/home/ec2-user/aws-cli": "https://github.com/aws/aws-cli/tarball/master"
           files:
